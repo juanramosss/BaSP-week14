@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655836733722' stop='1655836744553'>
+    <name>Problem user tests</name>
+    <title>Problem user tests</title>
+    <test-cases>
+        <test-case start='1655836733722' status='passed' stop='1655836733723'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps>
+                <step start='1655836733723' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='33783a09-15fd-45d3-9c5a-6745a39c54dd-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655836744553' status='failed' stop='1655836744553'>
+            <name>&lt;unknown test></name>
+            <title>&lt;unknown test></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: describe expects a function argument; received [object Undefined]</message>
+                <stack-trace>Error: describe expects a function argument; received [object Undefined]
+                    at &lt;Jasmine>
+                    at Suite.&lt;anonymous> (/Users/juanramos/Desktop/BaSP-week14/test/specs/problem.js:21:5)
+                    at &lt;Jasmine>
+                    at Object.&lt;anonymous> (/Users/juanramos/Desktop/BaSP-week14/test/specs/problem.js:3:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1105:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

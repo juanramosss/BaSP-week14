@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655817865596' stop='1655817865608'>
+    <name>Login Page Testing: Elements to be displayed</name>
+    <title>Login Page Testing: Elements to be displayed</title>
+    <test-cases>
+        <test-case start='1655817865596' status='failed' stop='1655817865608'>
+            <name>verify botIng to be displayed</name>
+            <title>verify botIng to be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps>
+                <step start='1655817865597' status='failed' stop='1655817865608'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fcf2c7e8-d81f-48d3-ab4c-1a12f7140465-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps>
+                        <step start='1655817865603' status='failed' stop='1655817865608'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: no such window: window was already closed
+                  (Session info: chrome=102.0.5005.115)</message>
+                <stack-trace>no such window: no such window: window was already closed
+                  (Session info: chrome=102.0.5005.115)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at UserContext.&lt;anonymous> (/Users/juanramos/Desktop/BaSP-week14/test/specs/login.js:30:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655834672253' stop='1655834672264'>
+    <name>Login Page Fail Testing: Elements to be displayed</name>
+    <title>Login Page Fail Testing: Elements to be displayed</title>
+    <test-cases>
+        <test-case start='1655834672253' status='passed' stop='1655834672264'>
+            <name>verify botIng to be displayed</name>
+            <title>verify botIng to be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps>
+                <step start='1655834672254' status='passed' stop='1655834672259'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b18f2cfd-184f-40be-96a0-523d2ea78b3f-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='b91a8df7-0ed7-40f4-9ef9-2a5e2539debc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1655834672260' status='passed' stop='1655834672263'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='d3cc9339-9877-4954-8d03-fc9b8d18ac04-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='7245f263-90f2-4f1f-8239-0a91aa086556-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

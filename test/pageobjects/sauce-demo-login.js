@@ -15,6 +15,14 @@ class loginsauce extends Page {
         return $('#login-button')
     }
 
+    get errorContainer() {
+        return $('.error-message-container.error')
+    }
+
+    get botIng() {
+        return $('.bot_column')
+    }
+
     async login (username, password) {
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);

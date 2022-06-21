@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655850550322' stop='1655850550355'>
+    <name>Problem user tests: add to cart</name>
+    <title>Problem user tests: add to cart</title>
+    <test-cases>
+        <test-case start='1655850550322' status='passed' stop='1655850550341'>
+            <name>click</name>
+            <title>click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps>
+                <step start='1655850550322' status='passed' stop='1655850550327'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b9031fab-d660-4c3c-9fa4-1e5801f52036-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='a9733006-05b2-4490-822f-b2d67676fe15-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1655850550328' status='passed' stop='1655850550341'>
+                    <name>POST /session/:sessionId/element/b47b4df1-9e23-4d94-9e4e-cff6d6f0f89e/click</name>
+                    <title>POST /session/:sessionId/element/b47b4df1-9e23-4d94-9e4e-cff6d6f0f89e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655850550343' status='passed' stop='1655850550355'>
+            <name>add to cart number changes</name>
+            <title>add to cart number changes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps>
+                <step start='1655850550343' status='passed' stop='1655850550349'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='94deac7d-6cc6-46ec-9ffd-bb5f0627a4e7-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Response' source='d9a92258-6dc4-46a5-8ad1-870592effd0c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1655850550349' status='passed' stop='1655850550355'>
+                    <name>GET /session/:sessionId/element/83ea49cc-e054-4272-8c1e-505f7252d098/text</name>
+                    <title>GET /session/:sessionId/element/83ea49cc-e054-4272-8c1e-505f7252d098/text</title>
+                    <attachments>
+                        <attachment title='Response' source='5bbbffd3-1e47-4bef-8881-a1cf5bf9f581-attachment.json' type='application/json' size='3'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
